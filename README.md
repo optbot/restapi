@@ -22,4 +22,6 @@ Run
         $ cd <project root>
         $ node app.js
 
-2.  Navigate to the locally served page at: http://127.0.0.1:8081/
+2.  Select an available equity, strike price, option type, and expiry to provide values in the form of:
+
+		http://127.0.0.1:8081/api/?equity=SCTY&option=call&strike=30&expiry=2015-4-9
