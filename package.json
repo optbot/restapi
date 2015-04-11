@@ -1,19 +1,19 @@
 {
-  "name": "optbotrestapi",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "4.x.x",
-    "mongodb": "2.x.x"
-  },
-  "devDependencies": {
-    "grunt": "0.4.5",
-    "shelljs": "0.4.0"
-  }
+    "name": "optbotrestapi",
+    "version": "0.0.1",
+    "description": "RESTful API for the optbot service.",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Mark Scappini, Marshall Farrier, Robert Rodriguez",
+    "license": "ISC",
+    "dependencies": {
+        "express": "4.x.x",
+        "mongodb": "2.x.x"
+    },
+    "devDependencies": {
+        "grunt": "0.4.5",
+        "shelljs": "0.4.0"
+    }
 }
