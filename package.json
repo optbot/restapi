@@ -11,5 +11,9 @@
   "dependencies": {
     "express": "4.x.x",
     "mongodb": "2.x.x"
+  },
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "shelljs": "0.4.0"
   }
 }
