@@ -1,5 +1,5 @@
 {
-  "name": "optbotrestapi",
+  "name": "@optbot/restapi",
   "version": "0.0.1",
   "description": "RESTful API for the optbot service.",
   "main": "app.js",
