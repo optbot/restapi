@@ -20,9 +20,10 @@
         "lib/"
     ],
     "dependencies": {
-        "express": "4.12.3",
-        "mongodb": "2.0.27",
-        "yargs": "3.7.1"
+        "express": "~4.12.3",
+        "mongodb": "~2.0.27",
+        "nconf": "~0.7.1",
+        "yargs": "~3.7.1"
     },
     "devDependencies": {
         "chai": "~2.2.0",
