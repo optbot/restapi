@@ -15,17 +15,9 @@ Usage
 
 	$ npm start
 
-###Details
+OR you can start the Node server with options (notice the first `--` for optional args):
 
-1. You can start the Node server with options (notice the first `--` for optional args):
-
-        $ npm start [-- [--port=your_port] [--host=your_host]]
-
-2. If the service is running on port `8081` on a host with IP address `91.198.174.192`, navigate to the following REST endpoint in a web browser:
-
-		http://91.198.174.192:8081/api/?equity=SCTY&option=call&strike=30&expiry=2015-4-9
-
-3. You can replace query string parameters as needed to query for suitable data.
+    $ npm start [-- [--port=your_port] [--host=your_host]]
 
 ###Default values
 
@@ -49,6 +41,15 @@ Usage
 **Start production on a different host and port**
 
 	$ npm start -- --host=127.0.0.1 --port=12345
+
+Testing
+--
+If the service is running on port `8081` on a host with IP address `91.198.174.192`, navigate to the following REST endpoint in a web browser:
+
+	http://91.198.174.192:8081/api/?equity=SCTY&option=call&strike=30&expiry=2015-4-9
+
+You can replace query string parameters as needed to query for suitable data.
+
 
 Connects To
 --
