@@ -15,32 +15,19 @@ Usage
 
 	$ npm start
 
-OR you can start the Node server with options (notice the first `--` for optional args):
+###Configuration
 
-    $ npm start [-- [--port=your_port] [--host=your_host]]
-
-###Default values
-
-- Host: Any
-- Port: 8081
+To configure settings, this package uses the `npm config` options detailed [here](https://docs.npmjs.com/files/package.json#config).
 
 ###Examples
 
-**Start production** (binds to any address, port 8081)
+To change the listening port
 
-	$ npm start
+	$ npm config set @optbot/restapi:web:port 18081 --global
 
-**Start local** (binds only to local address, port 8081)
+To change the bound host
 
-	$ npm start -- --host=127.0.0.1
-
-**Start production on a different port** (binds to any address)
-
-	$ npm start -- --port=12345
-
-**Start production on a different host and port**
-
-	$ npm start -- --host=127.0.0.1 --port=12345
+	$ npm config set @optbot/restapi:web:host 127.0.0.1 --global
 
 Testing
 --
