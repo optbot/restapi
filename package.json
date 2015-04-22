@@ -12,18 +12,23 @@
         "start": "node lib/app.js"
     },
     "private": true,
-    "author": "Mark Scappini, Marshall Farrier, Robert Rodriguez",
+    "author": "Mark Scappini, Marshall Farrier, Robert Rodrigues",
     "license": "MIT",
     "files": [
         "LICENSE",
         "README.md",
         "lib/"
     ],
+    "config": {
+        "host": "",
+        "port": "8081",
+        "db": {
+            "optionsMkt": "mongodb://localhost:27017/optionsMkt"
+        }
+    },
     "dependencies": {
         "express": "~4.12.3",
-        "mongodb": "~2.0.27",
-        "nconf": "~0.7.1",
-        "yargs": "~3.7.1"
+        "mongodb": "~2.0.27"
     },
     "devDependencies": {
         "chai": "~2.2.0",
