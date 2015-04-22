@@ -23,7 +23,7 @@
         "host": "",
         "port": "8081",
         "db": {
-            "options": "mongodb://localhost:27017/options"
+            "optionsMkt": "mongodb://localhost:27017/optionsMkt"
         }
     },
     "dependencies": {
