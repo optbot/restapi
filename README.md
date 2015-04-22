@@ -23,11 +23,11 @@ To configure settings, this package uses the `npm config` options detailed [here
 
 To change the listening port
 
-	$ npm config set @optbot/restapi:web:port 18081 --global
+	$ npm config set @optbot/restapi:port 18081 --global
 
 To change the bound host
 
-	$ npm config set @optbot/restapi:web:host 127.0.0.1 --global
+	$ npm config set @optbot/restapi:host 127.0.0.1 --global
 
 Testing
 --

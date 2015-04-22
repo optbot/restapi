@@ -20,12 +20,10 @@
         "lib/"
     ],
     "config": {
-        "web": {
-            "host": "",
-            "port": "8081"
-        },
+        "host": "",
+        "port": "8081",
         "db": {
-            "conn": "mongodb://localhost:27017/options"
+            "options": "mongodb://localhost:27017/options"
         }
     },
     "dependencies": {
