@@ -38,7 +38,7 @@ If the service is running on port `8081` on a host with IP address `91.198.174.1
 You can replace query string parameters as needed to query for suitable data.
 
 ### Code conformity
-    $ jshint lib test
+    $ jshint lib
     $ jscs .
 
 Connects To
