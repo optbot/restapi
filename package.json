@@ -1,39 +1,40 @@
 {
-    "name": "@optbot/restapi",
-    "version": "0.0.1",
-    "description": "RESTful API for the optbot service.",
-    "main": "lib/app.js",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/optbot/restapi.git"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node lib/app.js"
-    },
-    "private": true,
-    "author": "Mark Scappini, Marshall Farrier, Robert Rodrigues",
-    "license": "MIT",
-    "files": [
-        "LICENSE",
-        "README.md",
-        "lib/"
-    ],
-    "config": {
-        "host": "",
-        "port": "8081",
-        "db": {
-            "optionsMkt": "mongodb://localhost:27017/optionsMkt"
-        }
-    },
-    "dependencies": {
-        "express": "~4.12.3",
-        "mongodb": "~2.0.27"
-    },
-    "devDependencies": {
-        "chai": "~2.2.0",
-        "jscs": "~1.12.0",
-        "jshint": "~2.7.0",
-        "mocha": "~2.2.4"
+  "name": "@optbot/restapi",
+  "version": "0.0.2",
+  "description": "RESTful API for the optbot service.",
+  "main": "lib/app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/optbot/restapi.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/app.js"
+  },
+  "private": true,
+  "author": "Mark Scappini, Marshall Farrier, Robert Rodrigues",
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib/"
+  ],
+  "config": {
+    "host": "",
+    "port": "8081",
+    "db": {
+      "optionsMkt": "mongodb://localhost:27017/optionsMkt"
     }
+  },
+  "dependencies": {
+    "express": "~4.12.3",
+    "moment": "^2.10.2",
+    "mongodb": "~2.0.27"
+  },
+  "devDependencies": {
+    "chai": "~2.2.0",
+    "jscs": "~1.12.0",
+    "jshint": "~2.7.0",
+    "mocha": "~2.2.4"
+  }
 }
