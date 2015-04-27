@@ -37,10 +37,18 @@ If the service is running on port `8081` on a host with IP address `91.198.174.1
 
 You can replace query string parameters as needed to query for suitable data.
 
+If no data is being returned, it may be that the database connection string is improperly configured. As outlined in the **Connects To** section, this project currently requires a database called `optionsMkt` with a collection named `quotes`. To reconfigure this, you can issue the following command:
+
+	$ npm config set @optbot/restapi:db:optionsMkt "mongodb://<your_mongo_host>:<your_mongo_port>/<your_database_name>"
+
+As an example, using the default settings would be
+
+	$ npm config set @optbot/restapi:db:optionsMkt "mongodb://localhost:27017/optionsMkt"
+
 ### Code conformity
     $ jshint lib
     $ jscs .
 
 Connects To
 --
-[optbot/mongo](https://github.com/optbot/mongo) with a populated `quotes` collection.
+[optbot/mongo](https://github.com/optbot/mongo) database named `optionsMkt` with a populated `quotes` collection.
