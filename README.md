@@ -39,11 +39,11 @@ You can replace query string parameters as needed to query for suitable data.
 
 If no data is being returned, it may be that the database connection string is improperly configured. As outlined in the **Connects To** section, this project currently requires a database called `optionsMkt` with a collection named `quotes`. To reconfigure this, you can issue the following command:
 
-	$ npm config set @optbot/restapi:db:optionsMkt "mongodb://<your_mongo_host>:<your_mongo_port>/<your_database_name>" --global
+	$ sudo npm config set @optbot/restapi:db:optionsMkt "mongodb://<your_mongo_host>:<your_mongo_port>/<your_database_name>" --global
 
 As an example, using the default settings would be
 
-	$ npm config set @optbot/restapi:db:optionsMkt "mongodb://localhost:27017/optionsMkt" --global
+	$ sudo npm config set @optbot/restapi:db:optionsMkt "mongodb://localhost:27017/optionsMkt" --global
 
 ### Code conformity
     $ jshint lib
